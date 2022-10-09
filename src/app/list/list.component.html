@@ -5,6 +5,7 @@
 <app-create *ngIf="create_page" [editData]="editData" (showTable)="someFunction($event)"></app-create>
 <a href="#" [routerLink]="['/crud_create',1]" [ngClass]="'btn btn-success btn-sm getLink'">Link get Method</a>
 
+<h2>Employee List</h2>
 <table [ngClass]="create_page ? 'dnone' : ''" class="table table-bordered">
     <thead>
       <tr class="active">
